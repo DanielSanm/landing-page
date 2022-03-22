@@ -21,7 +21,7 @@ body {
 
 .logo {
     flex: 20%;
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
 }
 
@@ -61,4 +61,86 @@ body {
 #botao:hover {
     border: none;
     background: #FF2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.contact-btn:hover {
+    background: #180f4a;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
 }
